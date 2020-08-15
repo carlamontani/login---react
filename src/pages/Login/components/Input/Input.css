@@ -1,0 +1,18 @@
+.input-container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    padding-bottom: 10px;
+}
+
+.input-error {
+    color: darkred;
+    background: teal;
+}
+
+.input-error::placeholder {
+    color: fuchsia;
+    background: olivedrab;
+}
+
