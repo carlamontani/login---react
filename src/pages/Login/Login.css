@@ -1,3 +1,9 @@
+p{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .login-container {
     background-color: rgb(165, 165, 165);
     display: flex;
@@ -7,7 +13,7 @@
 }
 
 .login-content {
-    background-color: #d9e4f5;
+    background-color: #e5e5e5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,14 +38,92 @@
 
 .illustration {
     max-width: 100%;
-        max-height: 100%;
-        display: block;
+    max-height: 100%;
+    display: block;
 }
 
 .login-square {
     background-color: white;
     border-radius: 9px 9px 9px 9px;
     box-shadow: 10px 10px 25px -3px rgba(0,0,0,0.53);
-    padding: 50px;
+    padding: 40px;
     border: 1px solid rgb(206, 206, 206);
+    height: 450px;
+    width: 340px;
+}
+
+.submit-button{
+    background-color: #131313;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.submit-button:hover{
+    background-color:#919191;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.error-message{
+    height: 30px;
+}
+
+.p-message{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+
+    .login-container{
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+
+    .login-content {
+        width: auto;
+        background-color: white;
+        width: 100%;
+    }
+    
+    .login-illustration{
+        width: auto;
+    }
+
+    .login-square{
+        padding: 0;
+        height: auto;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        border: 0;
+        width: 90%;
+    }
+    .container-illustration{
+        padding: 0;
+    }
 }

@@ -1,13 +1,13 @@
 .label-container {
-    background-color: red;
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
+    height: 7px;
 }
 
 .label-text{
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
     padding: 10px 0px;
 }
